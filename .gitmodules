@@ -1,0 +1,3 @@
+[submodule "embox"]
+	path = embox
+	url = https://github.com/DCVostok/embox.git
