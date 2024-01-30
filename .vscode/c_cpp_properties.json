@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "arm-none-eabi",
+            "includePath": [
+                "${workspaceFolder}/embox/src/include",
+                "${workspaceFolder}/embox/build/base/include",
+                "${workspaceFolder}/project/waynsd_vk035_firmware/src/include",
+                "${workspaceFolder}/embox/build/base/gen/include",
+                "${workspaceFolder}/embox/build/extbld/third_party/bsp/k1921vk_sdk/k1921vk035_system/framework-k1921vk-sdk-1.7.3/platform/Device/NIIET/K1921VK035/Include",
+                "${workspaceFolder}/embox/build/extbld/third_party/bsp/k1921vk_sdk/k1921vk035_system/framework-k1921vk-sdk-1.7.3/platform/plib035/inc",
+                "${workspaceFolder}/embox/build/extbld/third_party/cmsis/core/CMSIS_5-5.9.0/CMSIS/Core/Include",
+                "${workspaceFolder}/embox/build/extbld/third_party/spiflash_driver/core/spiflash_driver-3015605835e428d69b2a7fa2488799be9861f24c/src",
+                "${workspaceFolder}/embox/build/extbld/third_party/coreMQTT/core/coreMQTT-2.1.1/source/include",
+                "${workspaceFolder}/embox/platform/vostok/vostok_vg015_dev"
+            ],
+            "defines": [
+                "__EMBOX__"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}
